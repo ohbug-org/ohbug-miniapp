@@ -1,6 +1,6 @@
 {
   "name": "@ohbug/miniapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ohbug 小程序 SDK 用于小程序平台（支持微信、字节跳动、支付宝、QQ 小程序）",
   "author": "chenyueban <jasonchan0527@gmail.com>",
   "homepage": "https://github.com/ohbug-org/ohbug-miniapp",

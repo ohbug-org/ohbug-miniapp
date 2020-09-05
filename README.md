@@ -18,18 +18,24 @@
 ```shell
 yarn add @ohbug/miniapp
 ```
+或直接下载 [releases](https://github.com/ohbug-org/ohbug-miniapp/releases)
 
 2. 「微信开发者工具 - 工具 - 构建 npm」，更多内容可查询[文档](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
 
 3. 初始化
 ```javascript
 // 新建文件 ohbug.js
+// 引入 SDK
 import Ohbug from "@ohbug/miniapp";
+// 或者直接引入js
+import Ohbug from "./ohbug-miniapp.esm.prod.js"
+// or
+const Ohbug = require("./ohbug-miniapp.cjs.prod.js")
 
 const client = Ohbug.init({ apiKey: "YOUR_API_KEY" });
-
 export default client;
 ```
+
 ```javascript
 // app.js
 import './ohbug';

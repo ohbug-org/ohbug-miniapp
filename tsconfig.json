@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "declaration": true,
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": false,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "lib": ["esnext", "dom"]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": ["**/__tests__"]
+}
